@@ -1,0 +1,40 @@
+void setup (){
+  size(500,500);
+  background(255,0,255);
+}
+void draw(){
+  fill(0,255,255);
+  ellipse(250,250,350,350);
+  //eyes
+  fill(255);
+ ellipse(200,150,50,50);
+ ellipse(300,150,50,50);
+ fill(0);
+ ellipse(200,150,25,25);
+  ellipse(300,150,25,25);
+//nose
+fill(255,255,0);
+triangle(250,200,225,250,275,250);
+ //mouth
+ fill(255);
+ ellipse(250,325,200,100);
+ //teeth
+ line(150,325,350,325);
+  line(190,287,190,365);
+   line(230,275,230,375);
+   line(310,287,310,365);
+   line(270,275,270,375);
+   //eyebrows
+   fill(0);
+   triangle(225,115,185,95,175,110);
+   triangle(275,115,315,95,325,110);
+   //bow
+   fill(255,0,0);
+    triangle(250,425,310,400,310,450);
+   triangle(250,425,190,400,190,450);
+   //balloon
+   fill(0,255,0);
+   ellipse(50,100,50,70);
+   line(50,137,50,250);
+  surface.setTitle(mouseX+","+mouseY);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #2a2c2e; -webkit-text-stroke: #2a2c2e}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #2a2c2e; -webkit-text-stroke: #2a2c2e; min-height: 17.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #2a2c2e; -webkit-text-stroke: #2a2c2e; background-color: #ffffff}
+    span.s1 {font-kerning: none; background-color: #ffffff}
+    span.s2 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">     &lt;title&gt;My Sketch&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">     &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;script type="application/processing"&gt;</span></p>
+<p class="p2"><span class="s2"></span><br></p>
+<p class="p3"><span class="s2">&lt;!--void setup (){</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>size(500,500);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>background(255,0,255);</span></p>
+<p class="p3"><span class="s2">}</span></p>
+<p class="p3"><span class="s2">void draw(){</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>fill(0,255,255);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>ellipse(250,250,350,350);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>//eyes</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>fill(255);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(200,150,50,50);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(300,150,50,50);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>fill(0);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(200,150,25,25);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>ellipse(300,150,25,25);</span></p>
+<p class="p3"><span class="s2">//nose</span></p>
+<p class="p3"><span class="s2">fill(255,255,0);</span></p>
+<p class="p3"><span class="s2">triangle(250,200,225,250,275,250);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>//mouth</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>fill(255);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(250,325,200,100);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>//teeth</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>line(150,325,350,325);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>line(190,287,190,365);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>line(230,275,230,375);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>line(310,287,310,365);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>line(270,275,270,375);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>//eyebrows</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>fill(0);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>triangle(225,115,185,95,175,110);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>triangle(275,115,315,95,325,110);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>//bow</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>fill(255,0,0);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span>triangle(250,425,310,400,310,450);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>triangle(250,425,190,400,190,450);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>//balloon</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>fill(0,255,0);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>ellipse(50,100,50,70);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">   </span>line(50,137,50,250);</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">  </span>surface.setTitle(mouseX+","+mouseY);</span></p>
+<p class="p1"><span class="s1">}--&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;canvas&gt; &lt;/canvas&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p3"><span class="s2">&lt;/html&gt;</span></p>
+</body>
+</html>
